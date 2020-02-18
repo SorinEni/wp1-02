@@ -24,7 +24,7 @@ $hobbies ="filmy, seriály, hrani her"
         <?php echo $birthdate; ?>
         <li>Škola:</li>
         <?php echo $school; ?>
-        <li>Koíčky:</li>
+        <li>Koníčky:</li>
         <?php echo $hobbies; ?>
         <li>E-mail:</li>
         <?php echo $email; ?>
