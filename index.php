@@ -1,11 +1,25 @@
 <?php
-$name = "Sorin Eni" ;
+
+/*
+$firstname = "Sorin" ;
+$lastname = "Eni" ;
 $gender = "Muž" ;
 $school ="ZŠ Komenského Nymburk" ;
 $birthdate ="4.2.2003" ;
 $email ="esorin@seznam.cz" ;
 $tel ="776 685 572" ; 
-$hobbies ="filmy, seriály, hrani her"
+$hobbies ="filmy, seriály, hraní her"
+*/
+
+$firstname = "Štěpán" ;
+$lastname = "Kolarovský" ;
+$gender = "Muž";
+$school ="Základní škola Velký Osek" ;
+$birthdate ="6.3.2004" ;
+$email ="stepan.kolarovsky@student.ossp.cz" ;
+$tel ="723 610 817" ; 
+$hobbies ="Florbal a práce s počítačem"
+
 ?>
 
 <!DOCTYPE html>
@@ -18,18 +32,17 @@ $hobbies ="filmy, seriály, hrani her"
 </head>
 <body>
     
-    <h1><?php echo $name; ?></h1>
+    <h1><?= $firstname;?> <?= $lastname?></h1>
+   
     <ul>
-        <li>Datum narozeni:</li>
-        <?php echo $birthdate; ?>
-        <li>Škola:</li>
-        <?php echo $school; ?>
-        <li>Koníčky:</li>
-        <?php echo $hobbies; ?>
-        <li>E-mail:</li>
-        <?php echo $email; ?>
-        <li>Tel:</li>
-        <?php echo $tel; ?>
+    
+        <li>Pohlaví: <?= $gender; ?></li>
+        <li>Datum narození: <?= $birthdate; ?></li>
+        <li>Škola: <?= $school; ?></li> 
+        <li>Koníčky: <?= $hobbies; ?></li>
+        <li>E-mail: <?= $email; ?></li>
+        <li>Tel: <?= $tel; ?></li>
+    
     </ul>
 
 
